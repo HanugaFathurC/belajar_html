@@ -1,0 +1,14 @@
+HTML5 only supports these video files :
+
+.mp4
+.webM
+.ogg
+
+Perintah untuk memunculkan controls video dan sumber videonya.
+
+<video controls>
+	<source src="yourvideo.mp4" >
+	</video>
+
+Dapat juga menambahkan
+autoplay loop maupun muted pada html kita. 

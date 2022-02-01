@@ -1,0 +1,20 @@
+Span dan Div 
+
+Span digunakan  untuk menambahkan elemen css pada bagian tertentu.
+
+Div pun sama akan tetapi, akan langsung membuat line baru. dan memisahkan diri dari linenya.
+
+Contoh : 
+
+Span : 
+
+<p>Hallo nama aku <span style="color : red"> Fathur </span> . Asal kendal </p>
+
+Maka daerah yang diapit tag element span akan berubah menjadi merah.
+
+Jika menggunakan tag div. Akan membuat enter line akan menjadi :
+
+Hallo nama aku
+
+Fathur
+.Asal kendal

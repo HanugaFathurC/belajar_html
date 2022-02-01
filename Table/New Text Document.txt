@@ -1,0 +1,41 @@
+<table>
+
+<!-- Membuat row pertama dengan headernya -->
+th : akan membuat text menjadi bold
+<tr>
+	<th></th>
+	<th></th>
+	<th></th>
+</tr>
+
+<!-- Memnuat row kedua dengan isinya -->
+td: text biasa karena ini berisikan data 
+
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+
+
+</table>
+
+cara menambahkan border karena by default belum ada border.
+yaitu dengan menambahkan border di dalam table.
+
+<table border=2px>
+	</table>
+
+Cara menambahkan bg pada table di html :
+
+<table border=2px bgcolor="black">
+</table>
+
+Cara mengatur height and width pada html :
+
+<table border=2px heigh=150 width=150 bgcolor="black">
+</table>
+
+Mengatur align :
+<table align=center>
+	</table>

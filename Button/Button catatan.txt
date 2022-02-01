@@ -1,0 +1,40 @@
+<button>
+	masukkan teks di sini.	
+	</button>
+
+
+Membuat button kosong tanpa teks.
+<button>
+	</button>
+
+bisa menambahkan
+name="" type="" dan value=""
+
+<button name="submit-button" type="submit" dan value="submit">
+Submit button
+	</button>
+
+atau menambahkan autofocus dan disable pada button :
+
+<button disable>
+disable
+	</button>
+
+
+<button autofocus>
+	autofocus
+	</button>
+
+menambahkan onclick
+
+<button onclick="alert('You clicked on a button omg')">
+	</button>
+
+menambahkan href
+
+< a href="linktujuan"><button> Klik Href </button></a>
+
+menambahkan css
+
+<button style= "background-color:# ; color :# ; font-size:18px;">
+	</button>

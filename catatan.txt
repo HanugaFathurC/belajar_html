@@ -1,0 +1,6 @@
+tag dalam html :
+
+<br>
+<hr>
+
+&nbsp : none breaking space for making a space in paragraph

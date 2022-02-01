@@ -1,0 +1,14 @@
+Jika ingin mendownload maka bisa menambahkan download pada opening
+tag html contoh :
+
+<a href="image.jpg" download> Contoh download image </a>
+
+Jika ingin memberikan nama pada file yang akan di unduh menggunakan perintah
+
+download="namaimage" jadi baris perintah akan menjadi :
+
+<a href="image.jpg" download="contohgambar"> Contoh download image </a>
+
+untuk mengatur height and widht tinggal di tambahkan di dalam opening tag.
+
+

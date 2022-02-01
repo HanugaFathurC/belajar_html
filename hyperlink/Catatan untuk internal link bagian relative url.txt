@@ -1,0 +1,47 @@
+Relative url
+pada link internal
+
+Okey jadi fungsi href=
+adalah untuk mencari link yang dituju
+nah  href= pada link internal hanya dapat mencari file yang dituju di dalam folder yg sama
+Permisalan :
+1. Saya memiliki 2 folder. Folder pertama berupa folder latihan terdapat file halaman 1 
+sedangkan folder kedua berupa Folder user dan terdapat file halaman 2
+Di dalam file halaman 2 tersebut terdapat code :
+
+<h1>Ini adalah halaman 2</h1>
+<a href="halaman1.html">Kembali ke halaman pertama</a>
+
+MAKA AKAN TERJADI EROR. Kenapa? Karena file halama1.html terdapat
+di folder satu atas di atas folder user untuk dapat berjalan maka 
+perlu diberi attribute tambahan berupa ../ maka code menjadi :
+
+
+<h1>Ini adalah halaman 2</h1>
+<a href="../halaman1.html">Kembali ke halaman pertama</a>
+
+2. Jika memiliki 3 folder. Folder 1 adalah folder Latihan yang berisi Folder admin dan user.
+, Folder 2 berisi halaman 1, folder 3 berisi halaman 2
+
+Jika kita menggunakan code :
+
+
+
+<h1>Ini adalah halaman 2</h1>
+<a href="../halaman1.html">Kembali ke halaman pertama</a>
+
+MAKA AKAN TERJADI ERROR PADA PROGRAM YANG DIJALANKAN
+
+KITA HARUS MEMPERBAIKI CODENYA MENJADI :
+
+<h1>Ini adalah halaman 2</h1>
+<a href="../Folder 2/halaman1.html">Kembali ke halaman pertama</a>
+
+Karena file halaman 1 berapa di folder diatas folder 3 dan berada di dalam folder 2
+
+
+Untuk membuka link pada tab baru maka perlu di tambahkan perintah :
+
+target=_blank
+
+contoh: <a href="" target=_blank></a>

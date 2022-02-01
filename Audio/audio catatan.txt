@@ -1,0 +1,28 @@
+HTML5 Only supports these audio files :
+
+- .mp3
+- .wav
+- .ogg
+
+<audio controls>
+	</audio>
+
+Perintah tersebut akan memunculkan audio control pada web.
+
+Untuk menambahkan audionya maka :
+
+<audio controls>
+	<source src="yoursound.mp3">
+	</audio>
+
+Menambahkan loop untuk mengulang-ulang suara musiknya.
+
+<audio controls loop>
+	<source src="yoursound.mp3">
+	</audio>
+
+Menambahkan autoplay untuk otomatis memutar audio.
+
+<audio autoplay>
+	<source src="yoursound.mp3">
+	</audio>

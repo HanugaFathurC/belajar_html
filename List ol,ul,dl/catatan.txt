@@ -1,0 +1,16 @@
+untuk mengubah default unorder list maka bisa digunakan style
+
+style="list-style-type:disc"
+circle, square
+
+order list :
+
+type="I" untuk mengubah default angka menjadi romawi start="100" untuk mengubah start angka.
+
+pada definition list. Dapat di tambah tag dd : detail definition.
+
+<dl>
+	<dt>JS merupakan ....</dt>
+	<dd>-biasanya JS digunakan</dd>
+</dl>
+

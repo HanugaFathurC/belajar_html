@@ -1,0 +1,8 @@
+menambahkann background-color pada html :
+
+<h1 style="background-color :#FFFFF">
+
+mengganti color pada paragraf ataupun head : 
+
+ <p style="color : red ; background-color : blue"> I Try This One </p>
+
